@@ -31,7 +31,7 @@ RegisterNetEvent("redemrp_quests:GatherItem")
 AddEventHandler("redemrp_quests:GatherItem", function(itemName)
     local _source = source
 	local ItemData = data.getItem(_source, itemName)
-	ItemData.AddItem(count)
+	ItemData.AddItem(1)
 
 end)
 
